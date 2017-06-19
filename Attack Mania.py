@@ -412,7 +412,7 @@ if win == 1:
         print " "
         print " "
         print "YOU WIN"
-        print "you gained", (int(enemy_attack + enemy_defense)-(8 - player_a)) * 10, "experience"
+        print "you gained", (int(enemy_attack + enemy_defense)-(8 - player_attack)) * 10, "experience"
         experience = experience + (enemy_attack + enemy_defense) * 10
         print "you have", experience, "experience."
     else:
